@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EcoLife</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>EcoLife</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Learn</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="cards">
+    <div class="card">
+      <img src="assets/images/compost.jpg" alt="Composting" />
+      <h2>Composting 101</h2>
+      <p>Learn how to turn kitchen scraps into garden gold.</p>
+    </div>
+    <div class="card">
+      <img src="assets/images/solar.jpg" alt="Solar Panels" />
+      <h2>Solar for Homes</h2>
+      <p>Discover the benefits of home solar panel systems.</p>
+    </div>
+    <div class="card">
+      <img src="assets/images/community.jpg" alt="Community Event" />
+      <h2>Eco Community</h2>
+      <p>Join events that support green living and local change.</p>
+    </div>
+  </main>
+  <div class="card">
+    <img src="assets/images/community.jpg" alt="Educational Event" />
+    <h2>Education on environment conservation</h2>
+    <p>Join our event and get more educated on how to conserve the enviromennt.</p>
+  </div>
+</main>
+
+  <footer>
+    <p>&copy; 2025 EcoLife. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
